@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu:wght@500&display=swap');
+
 *{
     margin : 0px;
     padding: 0px;
@@ -11,4 +13,11 @@
     display: grid;
     /* display:flex; */
     background: #e2d4ff;
+}
+
+.app h2{
+    place-self: center;
+    font-family: "Ruwudu", serif;
+    font-weight: 500;
+    font-style: normal;
 }
