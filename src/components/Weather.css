@@ -40,7 +40,7 @@
 
 .temperature{
     color:#fff;
-    font-size:75px;
+    font-size:60px;
     line-height: 1.2;
 }
 .location{
@@ -82,4 +82,39 @@
     font-optical-sizing: auto;
     font-weight: 200;
     font-size: 18px;
+}
+
+@media (max-width: 408px){
+    .weather{
+        padding: 20px;
+    }
+    .search-bar input{
+        height: 30px;
+        font-size: 14px;
+    }
+    .search-icon{
+        height: 28px;
+    }
+    .weather-icon{
+        height: 65px;
+    }
+    .temperature{
+        font-size:40px;
+        line-height: 1.7;
+    }
+    .location{
+        font-size:25px;
+    }
+    .weather-data{
+        margin-top: 30px;
+        width: 95%;
+    }
+    .weather-data .col{
+        font-size: 15px;
+    }
+    .weather-data .col img{
+        height: 38px;
+        width: auto;
+        margin-top: 0px;
+    }
 }
